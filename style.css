@@ -16,7 +16,6 @@
 
 .web-logo {
     color: #CF2D2D;
-    /* font-family: "Poppins", sans-serif; */
     font-weight: 600;
     font-size: large;
     font-style: normal;
@@ -48,7 +47,6 @@
 
 .web-cat p {
     font-weight: 600;
-    /* font-family: poppins, sans-serif; */
 }
 
 .search-container form input {
@@ -56,7 +54,6 @@
     padding: 10px 20px;
     border-radius: 8px;
     border: 1px solid #989090;
-    /* font-family: poppins, sans-serif; */
 }
 
 .search-container form i {
@@ -67,21 +64,15 @@
     padding: 11px 12px;
 }
 
-/* .search-container form i:hover {
-    cursor: pointer;
-} */
 
 ::placeholder {
-    /* font-family: Poppins, sans-serif; */
     font-weight: 400;
 } 
 
 .sign-in-section {
     display: flex;
-    /* background-color: white; */
     align-items: center;
     padding: 0 20px;
-    /* margin: 12px 0;  */
 }
 
 .sign-in-section i {
@@ -101,6 +92,45 @@
     border: 1px solid #989090;
 }
 
+
+/* Main-nav */
+.main-nav {
+    display: flex;
+    /* background-color: green; */
+}
+
+.nav-location {
+    /* background-color: darkgrey; */
+    display: flex;
+    align-items: center;
+    margin: 9px 70px;
+}
+
+.nav-location i {
+    margin-right: 15px;
+}
+
+.nav-location p {
+    margin-right: 15px;
+}
+
+.nav-hamberger {
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    width: 900px;
+    justify-content: center;
+}
+
+.nav-hamberger ul {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-hamberger ul li {
+    list-style: none;
+}
 
 
 /* Provided css data by recruiter */
