@@ -12,10 +12,6 @@
     padding: 15px 7px;
     display: flex;
     align-items: center;
-    width: 1536px; /* formality ke liye diya hu just */
-
-/*  */
-    background-color: #b0edb0;
 }
 
 .web-logo {
@@ -43,6 +39,7 @@
     color: white;
     border-radius: 8px;
     align-items: center;
+    cursor: pointer;
 }
 
 .web-cat-bar {
@@ -65,8 +62,14 @@
 .search-container form i {
     color: #989090;
     position: relative;
-    left: -35px;
+    left: -45px;
+    cursor: pointer;
+    padding: 11px 12px;
 }
+
+/* .search-container form i:hover {
+    cursor: pointer;
+} */
 
 ::placeholder {
     /* font-family: Poppins, sans-serif; */
@@ -82,7 +85,7 @@
 }
 
 .sign-in-section i {
-    font-size: 15px;
+    font-size: 17px;
     color: #989090;
 }
 
