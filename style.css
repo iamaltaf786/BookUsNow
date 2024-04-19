@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.search-nav {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    width: 1536px; /* formality ke liye diya hu just */
+
+/*  */
+    background-color: #b0edb0;
+}
+
+.web-logo {
+    color: #CF2D2D;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 600;
+    font-size: large;
+    font-style: normal;
+    padding: 0 70px;
+    transform: scale(1.2, 1.1);
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    margin: 0px 110px;
+    margin-right: 13px;
+}
+
+.web-cat {
+    display: flex;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.web-cat-bar {
+    margin-right: 15px;
+}
+
+.web-cat p {
+    font-weight: 600;
+    /* font-family: poppins, sans-serif; */
+}
+
+.search-container form input {
+    width: 600px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    /* font-family: poppins, sans-serif; */
+}
+
+.search-container form i {
+    color: #989090;
+    position: relative;
+    left: -35px;
+}
+
+::placeholder {
+    /* font-family: Poppins, sans-serif; */
+    font-weight: 400;
+} 
+
+.sign-in-section {
+    display: flex;
+    /* background-color: white; */
+    align-items: center;
+    padding: 0 20px;
+    /* margin: 12px 0;  */
+}
+
+.sign-in-section i {
+    font-size: 15px;
+    color: #989090;
+}
+
+.sign-in-section p {
+    padding: 0 20px;
+    font-size: 17px;
+}
+
+.sign-in-section button {
+    padding: 13px 17px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #989090;
+}
+
+
+
+/* Provided css data by recruiter */
+.provided-data {
+    /* Font - Inter; */
+    color : #1E2022; /* Font color (Heading) */
+    color : #989090; /* Font color (Subtitle)  */
+    background-color : #ffffff;
+    color : #CF2D2D; /* Logo color */
+    color : #B0BABF; /* Stroke/border color */
+}
