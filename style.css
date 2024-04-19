@@ -9,7 +9,7 @@
 }
 
 .search-nav {
-    padding: 7px;
+    padding: 15px 7px;
     display: flex;
     align-items: center;
     width: 1536px; /* formality ke liye diya hu just */
@@ -58,7 +58,7 @@
     width: 600px;
     padding: 10px 20px;
     border-radius: 8px;
-    border: none;
+    border: 1px solid #989090;
     /* font-family: poppins, sans-serif; */
 }
 
@@ -92,7 +92,7 @@
 }
 
 .sign-in-section button {
-    padding: 13px 17px;
+    padding: 10px 20px;
     background-color: white;
     border-radius: 8px;
     border: 1px solid #989090;
