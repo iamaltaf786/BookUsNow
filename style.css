@@ -8,6 +8,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* Navbar search-nav */
 .search-nav {
     padding: 15px 7px;
     display: flex;
@@ -95,11 +96,9 @@
 /* Main-nav */
 .main-nav {
     display: flex;
-    /* background-color: green; */
 }
 
 .nav-location {
-    /* background-color: darkgrey; */
     display: flex;
     align-items: center;
     margin: 9px 70px;
@@ -114,7 +113,6 @@
 }
 
 .nav-hamberger {
-    /* background-color: grey; */
     display: flex;
     align-items: center;
     width: 900px;
