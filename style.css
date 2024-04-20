@@ -173,10 +173,11 @@
 
 /* Container for Events and Shows */
 .container {
-    margin: 0 125px;
-
-    position: relative;
+    max-width: 1389px;
+    margin: 0;
+    left: 130px;
     top: -145px;
+    position: relative;
 }
 
 .shows-heading {
@@ -199,6 +200,99 @@
     font-size: 25px;
     font-weight: 500;
 }
+
+/* Cards container (Scrolling container) */
+.scrolling-container {  /* this class is not foud in HTML as well as JS file...ERROR cause */
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    white-space: nowrap;
+    /* overflow: hidden; */
+  }
+
+  /* display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 30px; */
+
+  /* .cards-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 30px;
+  } */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 50px;
+    /* transition: transform 0.5s ease-in-out; */
+    animation: moveLeft 10s infinite linear;
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0);
+      /* Start from initial position */
+    }
+  
+    100% {
+      transform: translateX(-50%);
+      /* Move to the left */
+    }
+  }
+  
+  .card:nth-child(1) {
+    animation-delay: 0s;
+    /* Start animation for first card immediately */
+  }
+  
+  .card:nth-child(2) {
+    animation-delay: 3s;
+    /* Delay animation for second card by 3 seconds */
+  }
+  
+  
+  .card {
+    display: inline-block;
+    width: 240px;
+    height: 380px;
+    margin-right: 10px;
+    background-size: cover;
+    color: black;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .card .content {
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .card .content h2 {
+    margin: 0;
+  }
+  
+  .card .content p {
+    margin: 5px 0;
+  }
+  
+  .card p:nth-of-type(2) {
+    font-size: 8px;
+  }
+  
+  .first,
+  .second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .first h3 {
+    width: 105px;
+  }
 
 
 
