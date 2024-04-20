@@ -181,6 +181,7 @@
 }
 
 .shows-heading {
+    margin: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -196,9 +197,19 @@
 }
 
 .head-text p {
-    margin: 0 10px;
+    margin-right: 20px;
     font-size: 25px;
     font-weight: 500;
+}
+
+.head-text i {
+    font-size: 20px;
+    transform: scale(1.2);
+}
+
+.shows-heading a {
+    position: relative;
+    right: 100px;
 }
 
 /* Cards container (Scrolling container) */
@@ -295,6 +306,12 @@
   }
 
 
+.events-container p {
+    margin-top: 55px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 
 /* display: flex;
     justify-content: center;
@@ -311,3 +328,7 @@
     color : #CF2D2D; /* Logo color */
     color : #B0BABF; /* Stroke/border color */
 }
+
+/* https://gg-backend-assignment.azurewebsites.net/api/Events?code=FOX643kbHEAkyPbdd8nwNLkekHcL4z0hzWBGCd64Ur7mAzFuRCHeyQ==&page=1&type=upcoming
+
+*/
