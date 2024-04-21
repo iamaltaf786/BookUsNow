@@ -321,6 +321,10 @@
     font-weight: 500;
 }
 
+.events-container i:hover {
+  cursor: pointer;
+}
+
 .events-section {
     margin-top: 20px;
     width: 1275px;
