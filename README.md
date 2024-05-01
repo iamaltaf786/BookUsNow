@@ -2,7 +2,8 @@
 #⚡ B o o k U s N o w
 The project shows upcoming and recommended events happening near a person's location.You can see it here 
 
-<p align="center"><img src ="./assets/desktop-view.png" height="340" alt="desktop-view-image" /></p>
+<p align="center"><img src ="./img/desktop-view-1.png" height="340" alt="desktop-view-image" />
+                  <img src ="./img/desktop-view-2.png" height="340" alt="desktop-view-image" /></p>
 
 
 ## Project Structure
