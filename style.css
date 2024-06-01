@@ -421,7 +421,7 @@
     }
 
     .search-section {
-      margin: 0 0 0 180px;
+      margin: 0 0 0 120px;
     }
 
     .web-cat {
@@ -551,9 +551,26 @@
       left: 50px;
     }
 
+    .events-section {
+      width: 335px;
+    }
+
+    .eventCard {
+      width: 375px;
+    }
+
     .card {
       width: 212px;
       height: 334px;
+    }
+
+    .card-img p {
+      left: 4px;
+      width: 346px;
+    }
+
+    .eventCard-p1 {
+      width: 300px;
     }
 
     .events-container>p {
