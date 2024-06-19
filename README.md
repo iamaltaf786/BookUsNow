@@ -24,7 +24,7 @@ The project is divided into 6 components:
 ## Getting Started
 ### 1. Clone the repository
 ```
-git clone https://github.com/
+https://github.com/iamaltaf786/BookUsNow.git
 ```
 
 ### 2. Run
